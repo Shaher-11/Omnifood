@@ -1,0 +1,77 @@
+
+
+/* FOR  BIG TABLETS FROM 1023 TO 1040 PX ROW */
+@media only screen and (max-width 1200px) {
+    .hero-text-box{
+    width: 100%;
+        padding: 0 2%; } 
+    .row { padding: 0 2%; }
+}
+
+
+/* FOR SMALL TABLETS  AND BIG TABLETS FROM 768 TO 1023PX */
+@media only screen and ( max-width 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    .works-steps:last-of-type { margin-bottom: 60px; }
+    .app-screen { width: 50%; }
+    .icon-small {
+        margin-right: 5px;
+        width: 17px; }
+    .city-feature {font-size: 90%; }
+    .plan-box {
+        width: 100%;
+        margin-left: 0%; }
+    .plan-price { font-size: 250%; }
+    .contact-form { width: 80%; }
+    .col { width: 100%; }
+    .main-nav { display: none; }
+    
+}
+
+
+/* FOR SMALL PHONES AND SMALL TABLETS FROM 481 TO 767PX */
+@media only screen and (max-width 767px) {
+    body { font-size: 16px; }
+    section { padding: 29px 0; }
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0; }
+   
+    h1 { font-size:180%; }
+    h2 { font-size:150%; }
+    .long-copy{
+        width: 100%;
+        margin-left: 0%;
+    }
+     
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 20px; }
+    .works-step div {
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    margin-left: 15px;
+        font-size: 120%;
+}
+.steps-box:first-child { text-align: center; }
+    .app-screen { width: 40%; }
+
+    
+}
+
+
+/* FOR SMALL PHONES (0-480PX) */
+@media only screen and (max-width 480px) {
+    section { padding: 25px 0; }
+    .contact-form {width: 100%; }
+}
